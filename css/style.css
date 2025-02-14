@@ -1,0 +1,683 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1152px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+}
+
+/* common css */
+/*  header section css */
+#header {
+    background-color: #F5F7FA;
+}
+
+#header .header-items {
+    display: flex;
+    padding: 22px 0;
+    align-items: center;
+}
+
+#header .logo {
+    width: 20%;
+}
+
+#header .menu {
+    width: 60%;
+    padding: 0 50px;
+    text-transform: capitalize;
+}
+
+#header .btn {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+#header .menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .menu ul li a {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#header .header-items .btn a {
+    font-size: 14px;
+}
+
+#header .btn .login-btn {
+    margin-right: 34px;
+    color: #4CAF4F;
+}
+
+#header .btn .signup-btn {
+    color: #ffffff;
+    background-color: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    line-height: 20px;
+}
+
+/* header section */
+
+/* banner section  */
+#banner {
+    background-color: #F5F7FA;
+}
+
+#banner .banner-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+    align-items: center;
+}
+
+#banner .banner-left h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #4d4d4d;
+}
+
+#banner .banner-left span {
+    color: #4CAF4F;
+}
+
+#banner .banner-left p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+#banner .banner-left a {
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+/* banner section  */
+
+/* client section  */
+#clients {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#clients .text h1 {
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 8px;
+}
+
+#clients .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+
+#clients .icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 25px 0;
+}
+
+/* client section  */
+
+/* community section  */
+#community .text h1 {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #4d4d4d;
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#community .text span {
+    display: block;
+}
+
+#community .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#community .details {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+#community .details .shadow {
+    border-radius: 8px;
+    padding: 24px 32px;
+    box-shadow: 0px 2px 4px #dee0e4;
+}
+
+#community .detail-one h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4d4d4d;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+#community .detail-one p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    text-transform: capitalize;
+}
+
+#community .detail-two {
+    padding: 24px 32px;
+    margin: 0 127px;
+}
+
+#community .detail-two h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4d4d4d;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+#community .detail-two p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    text-transform: capitalize;
+}
+
+#community .detail-three {
+    padding: 24px 32px;
+}
+
+#community .detail-three h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4d4d4d;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+#community .detail-three p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    text-transform: capitalize;
+}
+
+/* #community section*/
+
+/* unlock section  */
+#unlock .unlock-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0 52px 0;
+    align-items: center;
+}
+
+#unlock .unlock-items .right-text {
+    margin: 0 60px 0 49px;
+}
+
+#unlock .unlock-items .right-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4d4d4d;
+    line-height: 44px;
+    text-transform: capitalize;
+}
+
+#unlock .unlock-items .right-text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    text-transform: capitalize;
+    margin: 16px 0 32px 0;
+}
+
+#unlock .unlock-items .right-text a {
+    padding: 14px 32px;
+    color: #ffffff;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* unlock section  */
+/* achievements section  */
+#achievements {
+    background-color: #F5F7FA;
+    /* margin: 48px 0; */
+}
+
+#achievements .achievements-items {
+    padding: 64px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#achievements .left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4d4d4d;
+    display: block;
+}
+
+#achievements .left span {
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    display: block;
+}
+
+#achievements .left p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191f;
+    margin-top: 8px;
+}
+
+#achievements .right .top {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#achievements .right .top-left {
+    display: flex;
+    align-items: center;
+    width: 255px;
+    margin-right: 30px;
+}
+
+#achievements .right .top-right {
+    display: flex;
+    align-items: center;
+    width: 255px;
+}
+
+#achievements .right .bottom {
+    display: flex;
+    margin-top: 20px;
+}
+
+#achievements .right .bottom-left {
+    display: flex;
+    width: 255px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#achievements .right .bottom-right {
+    display: flex;
+    width: 255px;
+    align-items: center;
+}
+
+#achievements .right .digit {
+    font-size: 28px;
+    font-weight: 700;
+    color: #4d4d4d;
+    line-height: 36px;
+}
+
+#achievements .right .text-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    text-transform: capitalize;
+}
+
+#achievements .right img {
+    height: 48px;
+    align-items: center;
+    margin-right: 16px;
+}
+
+/* achievements section  */
+
+/* site-design section  */
+#site-design {
+    margin: 48px 0;
+}
+
+#site-design .site-design-items {
+    display: flex;
+}
+
+#site-design .site-design-items img {
+    margin-right: 50px;
+}
+
+#site-design .site-design-items .text {
+    margin: 62px 0;
+    padding-right: 60px;
+}
+
+#site-design .site-design-items .text h6 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #4d4d4d;
+    line-height: 44px;
+}
+
+#site-design .site-design-items .text p {
+    margin: 16px 0 32px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+}
+
+#site-design .site-design-items .text a {
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+/* site-design section  */
+/* customer section  */
+#customer {
+    background-color: #F5F7FA;
+    margin-bottom: 48px;
+}
+
+#customer .customer-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#customer .customer-items .customer-img {
+    margin: 32px 78px 32px 0;
+
+}
+
+#customer .customer-items .detail {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #717171;
+    margin-top: 33px;
+}
+
+#customer .customer-items .name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4CAF4F;
+    text-transform: capitalize;
+    margin: 16px 0 8px 0;
+}
+
+#customer .customer-items .title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #89939E;
+}
+
+#customer .customer-items .customer-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0 33px 0;
+    align-items: center;
+}
+
+#customer .customer-items .customer-link {
+    display: flex;
+}
+
+#customer .customer-items .customer-icon .customer-link p {
+    font-weight: 600;
+    color: #4CAF4F;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+/* customer section  */
+
+/* marketing section  */
+#marketing {
+    margin-bottom: 175px;
+}
+
+#marketing .text-top {
+    text-align: center;
+}
+
+#marketing .text-top h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4d4d4d;
+}
+
+#marketing .text-top p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    width: 628px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#marketing .read-more {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+#marketing .read-more .read-more-left {
+    background-image: url(../img/marketing/marketing-img-left.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 286px;
+}
+
+#marketing .read-more .read-more-middle {
+    background-image: url(../img/marketing/marketing-img-middle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 286px;
+}
+
+#marketing .read-more .read-more-right {
+    background-image: url(../img/marketing/marketing-img-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 286px;
+}
+
+#marketing .read-more .text-bottom {
+    background-color: #F5F7FA;
+    margin: 190px 25px 0 25px;
+    border-radius: 8px;
+    width: 317px;
+    text-align: center;
+    box-shadow: 0 8px 15px #ABBED1;
+}
+
+#marketing .read-more .text-bottom h2 {
+    color: #717171;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px;
+}
+
+#marketing .read-more .text-bottom a p {
+    color: #4CAF4F;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+/* marketing section  */
+
+/* demo section  */
+#demo {
+    background-color: #F5F7FA;
+    text-align: center;
+}
+
+#demo h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #263238;
+    padding: 32px 0;
+}
+
+#demo h1 span {
+    display: block;
+}
+
+#demo a {
+    margin-bottom: 32px;
+}
+
+#demo a p {
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+/* demo section  */
+
+/* footer section  */
+#footer {
+    background-color: #263238;
+}
+
+#footer .footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-left {
+    margin-left: 21px;
+}
+
+#footer .footer-items .footer-left img {
+    margin: 64px 0 40px 0;
+}
+
+#footer .footer-items p {
+    color: #F5F7FA;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 8px;
+}
+
+#footer .footer-items .footer-icon {
+    margin-top: 40px;
+    padding-bottom: 75px;
+}
+
+#footer .footer-items .footer-icon a {
+    margin-right: 16px;
+    color: #ffffff;
+    background-color: #3e494e;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+#footer .footer-right {
+    display: flex;
+    justify-content: space-between;
+    width: 635px;
+    margin: 64px 21px 64px 0;
+}
+
+#footer .footer-right h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 280x;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+#footer .footer-right ul li a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F7FA;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+#footer .footer-right .stay-up-date a {
+    color: #D9DBE1;
+    padding: 7px 7px;
+    margin-left: -35px;
+}
+
+#footer .footer-right .stay-up-date input {
+    background-color: #5e6163;
+    padding: 9px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+#footer .footer-right .stay-up-date input::placeholder {
+    text-transform: capitalize;
+    color: #D9DBE1;
+}
+
+/* footer section  */
