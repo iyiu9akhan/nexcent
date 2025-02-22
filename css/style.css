@@ -677,7 +677,8 @@ a {
 
 #footer .footer-right .stay-up-date input::placeholder {
     text-transform: capitalize;
-    color: #D9DBE1;
+    /* color: #D9DBE1; */
+    color: red;
 }
 
 /* footer section  */
